@@ -34,7 +34,7 @@
 	overflow: hidden;
 }
 
-.horizontal {
+.home-horizontal {
 	width: 10%;
 	margin: 1em 0 2em 0;
 	height: 1px;
@@ -306,7 +306,7 @@ h2 {
 	display: inline-block;
 }
 
-.btn {
+.home-btn {
 	border-radius: 3px;
 	border: 1px solid #d4af37;
 	text-transform: uppercase;
@@ -318,7 +318,7 @@ h2 {
 	margin-right: 10px;
 }
 
-.btn-fill {
+.home-btn-fill {
 	background-color: #d4af37;
 	color: #fff;
 }
@@ -332,8 +332,8 @@ h2 {
 	border: 1px solid #c9a633;
 }
 
-.btn-fill:hover,
-.btn-fill:active {
+.home-btn-fill:hover,
+.home-btn-fill:active {
 	background-color: #c9a633;
 	transform: translateY(-3px);
 	border: 1px solid #c9a633;
@@ -350,7 +350,7 @@ h2 {
 	color: #fff;
 }
 
-.btn-large {
+.home-btn-large {
 	font-size: 16px;
 	width: 133px;
 	padding: 12px 22px;
@@ -474,7 +474,7 @@ h2 {
 	.page-header-container {
 		margin-bottom: 10px;
 	}
-	.btn-large {
+	.home-btn-large {
 		margin-bottom: 1em;
 		margin: auto;
 		font-weight: 700;
@@ -482,7 +482,7 @@ h2 {
 		padding: 15px 27px;
 	}
 
-	.horizontal {
+	.home-horizontal {
 		margin: 1em auto 2em auto;
 	}
 	.jumbotron-form {
@@ -538,7 +538,7 @@ h2 {
 		text-align: center;
 	}
 
-	.horizontal {
+	.home-horizontal {
 		height: 2px;
 		width: 39%;
 	}
@@ -646,7 +646,7 @@ h2 {
 		flex-direction: column;
 		align-items: center;
 	}
-	.btn-large {
+	.home-btn-large {
 		margin: 0.5em auto 1em 1em;
 	}
 	.jumbotron-form {
@@ -676,14 +676,14 @@ h2 {
 	.page-header:after {
 		margin: 0.5em auto 0 auto;
 	}
-	.btn-large {
+	.home-btn-large {
 		margin-bottom: 1em;
 	}
 	.jumbotron-left h1 {
 		font-size: 50px;
 		margin-top: 1em;
 	}
-	.horizontal {
+	.home-horizontal {
 		margin: 1em auto 2em auto;
 	}
 }
