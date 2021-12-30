@@ -114,7 +114,7 @@ form {
 	width: 37%;
 	height: 320px;
 	background: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)),
-		url('../img/Rectangle\ 57.webp');
+	url('/static/core/assets/img/R57.webp');
 	background-position: center top;
 	color: white;
 	display: flex;
