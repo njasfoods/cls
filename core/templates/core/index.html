@@ -1,0 +1,210 @@
+{% extends 'core/base.html'%} {%block content%} {%load static%}
+
+<div class="jumbotron-container">
+	<div class="jumbotron-left">
+		<h2 class="jumbotron-header">
+			Discover the perfect balance <br />
+			of hospitality, luxury and <br />comfort.
+		</h2>
+		<p>
+			We are focused on providing clients with the highest level<br />
+			of comfort and excellent affordable rates
+		</p>
+		<a class="btn btn-fill btn-large" href="#"> Book Now </a>
+	</div>
+	<div class="jumbotron-right">
+		<form action="" class="jumbotron-form">
+			<!-- Put the form here -->
+			<h3>Make your day extra special!</h3>
+			<br />
+			<p>
+				We offers the best services<br />
+				and affordable rates you can ever find.
+			</p>
+			<label class="hide" for="arrival">arrival date</label>
+			<input
+				type="text"
+				id="arrival"
+				name="arrival_date"
+				placeholder="Arrival Date"
+				onfocus="(this.type='date')"
+			/><br />
+			<label class="hide" for="departure">departure date</label>
+			<input
+				type="text"
+				id="departure"
+				name="departure_date"
+				placeholder="Departure Date"
+				onfocus="(this.type='date')"
+			/><br />
+			<label class="hide" for="guests">how many guests</label>
+			<input type="text" id="guests" name="guests" placeholder="Guests" /><br />
+			<label class="hide" for="children">children</label>
+			<input
+				type="text"
+				id="children"
+				name="children"
+				placeholder="Children"
+			/><br />
+			<button type="button" class="rates">CHECK RATES</button>
+		</form>
+	</div>
+</div>
+
+<!-- Enjoy your stay in our hotel -->
+<div class="enjoy-container">
+	<div class="enjoy-header">
+		<h2 class="enjoy-heading">
+			Step inside and<br />
+			Kick your feet up
+		</h2>
+		<hr class="horizontal" />
+		<p class="center-lg">
+			Arrive in style with christophe’s limousine service.<br />
+			It’s our pleasure to luxury to your foot
+		</p>
+	</div>
+	<div class="enjoy-services">
+		<div class="first-col">
+			<div class="upper">
+				<i class="enjoy__coffee-icon fas fa-link"></i>
+				<h3>WEDDING LIMOUSINES</h3>
+				<p>
+					This is one of the most important days of your life, let christophe’s
+					Limousines take care of the transportation
+				</p>
+			</div>
+			<div class="lower">
+				<i class="enjoy__fitness-icon fas fa-plane"></i>
+				<h3>AIRPORT TRANSPORTATION</h3>
+				<p>
+					Curbside to your front door, christophe’s Limousines gets you there on
+					time and in style.
+				</p>
+			</div>
+		</div>
+		<div class="sec-col">
+			<div class="upper">
+				<i class="enjoy__fitness-icon fas fa-glass-cheers"></i>
+
+				<h3>NIGHTS IN THE CITY</h3>
+				<p>Jamaica is known for it's vacation spots, bars, club, and hotels.</p>
+			</div>
+			<div class="lower">
+				<i class="enjoy__coffee-icon far fa-clock"></i>
+				<h3>CORPORATE LIMOUSINE</h3>
+				<p>
+					Christophe's Limousine executive car service has one aim: to exceed
+					your expectations.
+				</p>
+			</div>
+		</div>
+		<div class="third-col cont">
+			<img
+				src="{%static 'core/assets/img/limo-2.jpg'%}"
+				alt="women in swimming pool"
+				class="third-col-video"
+			/>
+		</div>
+	</div>
+</div>
+<section class="special-offers">
+	<!-- Top Text -->
+	<div class="page-header-container">
+		<h2 class="page-header">Luxury transport is our <br />Business</h2>
+	</div>
+	<div class="row center-lg">
+		<div class="col image-col right-marg">
+			<img
+				src="{% static 'core/assets/img/inter.jpg' %}"
+				alt="room-image"
+				class="small-image"
+			/>
+			<img
+				src="{% static 'core/assets/img/business_shake.jpg' %}"
+				alt="room-image"
+				class="small-image"
+			/>
+			<img
+				src="{% static 'core/assets/img/night_limo.jpg' %}"
+				alt="room-image"
+				class="small-image img-hide"
+			/>
+			<div class="side-by-side-container">
+				<div class="large-image-container">
+					<img
+						src="{% static 'core/assets/img/lim-1.jpg' %}"
+						alt="room-image-large"
+						class="large-image"
+					/>
+				</div>
+				<section class="stacked-image-container">
+					<div>
+						<img
+							src="{% static 'core/assets/img/red_carpet.jpg' %}"
+							alt="room-image"
+							class="small-image"
+						/>
+					</div>
+					<div>
+						<img
+							src="{% static 'core/assets/img/casino.jpg' %}"
+							alt="room-image"
+							class="small-image"
+						/>
+					</div>
+				</section>
+			</div>
+		</div>
+		<div class="col">
+			<p class="offers-sub-title">
+				We provide our partners and clients with wide variety<br />
+				of high quality services supported by well established<br />
+				strong position and good will on the market for more than <br />
+				xx years.
+			</p>
+
+			<ul class="offers-list">
+				<li>
+					<div>
+						<img
+							src="{% static 'core/assets/img/check-square.svg' %}"
+							alt="tick"
+							class="list-icon"
+						/>
+						<p class="list-text">Elegant Interior</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img
+							src="{% static 'core/assets/img/check-square.svg' %}"
+							alt="tick"
+							class="list-icon"
+						/>
+						<p class="list-text">Professional Service</p>
+					</div>
+				</li>
+				<li>
+					<div>
+						<img
+							src="{% static 'core/assets/img/check-square.svg' %}"
+							alt="tick"
+							class="list-icon"
+						/>
+						<p class="list-text">(add more featurez)</p>
+					</div>
+				</li>
+			</ul>
+			<a
+				href="https://timbu.com/search?query=hotel"
+				class="btn btn-fill btn-large centered"
+				>Book Now</a
+			>
+		</div>
+	</div>
+</section>
+
+<!-- Client Reviews -->
+
+{%endblock content%}

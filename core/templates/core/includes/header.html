@@ -1,0 +1,50 @@
+{%load static%}
+<header>
+	<div class="header-container">
+		<nav class="header-nav-bar">
+			<div class="header-nav-logo">
+				<a href="{% url 'core:home'%}">
+					<img
+						class="img-fluid"
+						width="100%"
+						src="{% static 'core/assets/img/logo.png' %}"
+						alt="logo"
+					/>
+				</a>
+			</div>
+			<ul class="header-nav-lists">
+				<li class="header-nav-list">
+					<a class="header-nav-link header-active" href="{% url 'core:home'%}"
+						>Home</a
+					>
+				</li>
+				<li class="header-nav-list">
+					<a class="header-nav-link" href="{% url 'core:services'%}"
+						>Service and Occasccions</a
+					>
+				</li>
+				<li class="header-nav-list">
+					<a class="header-nav-link" href="{% url 'core:about'%}">About Us</a>
+				</li>
+				<li class="header-nav-list">
+					<a class="header-nav-link" href="{% url 'core:contact'%}"
+						>Contact Us</a
+					>
+				</li>
+				<li class="header-nav-list">
+					<a
+						class="header-btn header-btn-custom"
+						href="https://timbu.com/search?query=hotel"
+						>BOOK NOW</a
+					>
+				</li>
+			</ul>
+
+			<div class="header-hamburger-icon">
+				<div class="header-hamburger-line-1"></div>
+				<div class="header-hamburger-line-2"></div>
+				<div class="header-hamburger-line-3"></div>
+			</div>
+		</nav>
+	</div>
+</header>

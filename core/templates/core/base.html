@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="Christophe's Limousine Helps you Discover The Perfect Balance
+	Of Hospitality, Luxury And
+	Comfort."
+		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>Christophe's Limousine</title>
+		<link
+			rel="shortcut icon"
+			href="{% static 'core/assets/img/favicon.webp' %}"
+			type="image/x-icon"
+		/>
+
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{% static 'core/index.css' %}"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{% static 'core/assets/css/rooms-and-suit.css' %}"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{% static 'core/assets/css/facilties.css' %}"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="{% static 'core/assets/css/contact-page.css' %}"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="{% static 'core/assets/css/global-header.css'%}"
+		/>
+		<link
+			rel="stylesheet"
+			href="{% static 'core/assets/css/global-footer.css'%}"
+		/>
+		<link
+			rel="stylesheet"
+			href="{% static 'core/assets/css/accesibility.css'%}"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+			crossorigin="anonymous"
+		/>
+	</head>
+
+	<body>
+		{% include "core/includes/header.html" %}
+
+		<main class="">{%block content%} {%endblock content%}</main>
+
+		<footer class="footer">
+			<div class="footer-container">
+				<nav class="footer-nav">
+					<div class="footer-description">
+						<h3 class="footer-description-title">
+							christophe’s Limousine Service
+						</h3>
+						<p>Luxury transport is our business</p>
+					</div>
+					<div class="footer-contact-us">
+						<h3 class="footer-description-title">Contact Us</h3>
+						<p class="footer-description-detail">
+							<img
+								src="{%static 'core/assets/img/map-pin.svg'%}"
+								class="footer-description-icon"
+								alt="star hotel location"
+							/>
+
+							<span>1 Corniche Road, Gloucester Avenue, Montego Bay</span>
+						</p>
+						<p class="footer-description-detail">
+							<img
+								src="{%static 'core/assets/img/phone.svg'%}"
+								class="footer-description-icon"
+								alt="star hotels phone number"
+							/>
+							<span>(876) 826-0381</span>
+						</p>
+						<p class="footer-description-detail">
+							<img
+								src="{%static 'core/assets/img/mail.svg'%}"
+								class="footer-description-icon"
+								alt="star hotels email"
+							/>
+							<span>support@christophelimo.com</span>
+						</p>
+					</div>
+					<div class="footer-follow-us">
+						<h3 class="footer-description-title">Follow Us</h3>
+						<ul class="footer-follow-us-lists">
+							<li class="follow-us-list">
+								<a href="www.facebook.com/chrislimoservice">
+									<img
+										src="{%static 'core/assets/img/facebook.svg'%}"
+										alt="star hotels facebook page"
+									/>
+								</a>
+							</li>
+							<li class="follow-us-list">
+								<a href="www.twitter.com/chrislimoservice">
+									<img
+										src="{%static 'core/assets/img/twitter.svg'%}"
+										alt="star hotels twitter page"
+									/>
+								</a>
+							</li>
+							<li class="follow-us-list">
+								<a href="www.instagram.com/chrislimoservice">
+									<img
+										src="{%static 'core/assets/img/instagram.svg'%}"
+										alt="star hotels instagram page"
+									/>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</footer>
+	</body>
+</html>
